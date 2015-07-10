@@ -86,6 +86,8 @@
     NSLog(@"longitude = %f", currentLocation.coordinate.longitude);
     NSLog(@"altitude = %f", currentLocation.altitude);
     
+    NSLog(@"定位成功");
+    
     [self getAddressByLatitude:currentLocation.coordinate.latitude longitude:currentLocation.coordinate.longitude];
 }
 
